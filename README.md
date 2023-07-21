@@ -9,8 +9,10 @@ DeliverCom is designed to be an example of delivery system. Developed according 
 
 ## Libraries that used
 
-   - [Cap](https://github.com/dotnetcore/CAP) - DotnetCore Cap
+   - [Cap](https://github.com/dotnetcore/CAP) - For implementing Outbox Patter
    - [MediatR](https://github.com/jbogard/MediatR) - For Processing Commands, Queries
+   - [EntityFramework](https://github.com/dotnet/efcore) - For implementing object-database mapping
+   - [Mapster](https://github.com/MapsterMapper/Mapster) - For mapping domain objects with DTO objects used in API.
 
 ## Solution Structure
 
@@ -72,7 +74,7 @@ These;
  * DeliverCom.API[^2]
  
  [^1]: By default, Postgres access port is set to **5432** and port forwarding is enabled.</sup>
- [^2]: By default, EventStore.API is listening  **http:5000** and port forwarding is enabled.</sup>
+ [^2]: By default, DeliverCom.API is listening  **http:5000** and port forwarding is enabled.</sup>
  
  ## Tests
  
