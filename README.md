@@ -72,7 +72,7 @@ These;
  * DeliverCom.API[^2]
  
  [^1]: By default, Postgres access port is set to **5432** and port forwarding is enabled.</sup>
- [^2]: By default, EventStore.API is listening  **http:5000** and port forwarding is enabled.</sup>
+ [^2]: By default, DeliverCom.API is listening  **http:5000** and port forwarding is enabled.</sup>
  
  ## Tests
  
