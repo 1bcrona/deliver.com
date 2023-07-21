@@ -66,8 +66,8 @@ namespace DeliverCom.Data.InMemory.Store
 
         public async Task<bool> ExpireAsync(string key, TimeSpan expiry)
         {
-            Expire(key, expiry);
-            return await Task.FromResult(true);
+   
+            return await Task.FromResult(         Expire(key, expiry));
         }
 
         public T Get<T>(string key, T defaultValue = default)
@@ -95,12 +95,12 @@ namespace DeliverCom.Data.InMemory.Store
 
         public async Task<bool> PersistAsync(string key)
         {
-            Persist(key);
-            return await Task.FromResult(true);
+            return await Task.FromResult(  Persist(key));
         }
 
         public bool Set(string key, object value, TimeSpan? expiry = null)
         {
+            if (value == null) return false;
             var entry = GetEntry(key);
 
             var creationDate = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
@@ -120,8 +120,7 @@ namespace DeliverCom.Data.InMemory.Store
 
         public async Task<bool> SetAsync(string key, object value, TimeSpan? expiry = null)
         {
-            Set(key, value, expiry);
-            return await Task.FromResult(true);
+            return await Task.FromResult(Set(key, value, expiry));
         }
 
         public void Dispose()

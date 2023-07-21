@@ -3,7 +3,7 @@ using DeliverCom.Core.Exception.Impl;
 using DeliverCom.Core.Request.Model;
 using NUnit.Framework;
 
-namespace DeliverCom.Test.AmbientContext
+namespace DeliverCom.Test.Unit.AmbientContext
 {
     public class AmbientContextTests
     {

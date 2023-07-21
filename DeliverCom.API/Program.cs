@@ -11,9 +11,7 @@ using DeliverCom.API.Model.Company;
 using DeliverCom.API.Model.Delivery;
 using DeliverCom.Application.Extension;
 using DeliverCom.Container.Autofac;
-using DeliverCom.Core.Data.Infrastructure.KeyValueStore;
 using DeliverCom.Core.Routing.Settings;
-using DeliverCom.Data.InMemory.Store;
 using DeliverCom.Domain.Company;
 using DeliverCom.Domain.Delivery;
 using DeliverCom.Domain.Delivery.ValueObject;
@@ -55,7 +53,7 @@ namespace DeliverCom.API
                     policy => policy.RequireClaim(ClaimTypes.Role, UserRole.SYSTEM_ADM.ToString()));
             });
 
-            builder.Services.AddSingleton<IKeyValueStore, InMemoryKeyValueStore>();
+            
             builder.Services.AddOptions<RouteSettings>().BindConfiguration("RouteSettings");
             builder.Services.AddOptions<JwtSettings>().BindConfiguration("JwtSettings");
 

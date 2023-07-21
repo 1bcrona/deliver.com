@@ -110,11 +110,9 @@ namespace DeliverCom.Data.Redis.Store
             if (redisValue.IsNull)
                 return default;
 
-
             var value = String.Empty;
             var bytes = (byte[])redisValue;
             value = Encoding.UTF8.GetString(ZipHelper.IsGZipped(bytes) ? ZipHelper.Decompress(bytes) : bytes);
-
 
             var isPrimitiveType = (type == typeof(object) || Type.GetTypeCode(type) != TypeCode.Object);
             if (!isPrimitiveType)

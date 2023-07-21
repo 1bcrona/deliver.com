@@ -9,7 +9,7 @@ using MockQueryable.Moq;
 using Moq;
 using NUnit.Framework;
 
-namespace DeliverCom.Test.UseCase.RegisterCompany
+namespace DeliverCom.Test.Unit.UseCase.RegisterCompany
 {
     public class Tests
     {

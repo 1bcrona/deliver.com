@@ -11,7 +11,7 @@ using MockQueryable.Moq;
 using Moq;
 using NUnit.Framework;
 
-namespace DeliverCom.Test.UseCase.RegisterUser
+namespace DeliverCom.Test.Unit.UseCase.RegisterUser
 {
     public class Tests
     {

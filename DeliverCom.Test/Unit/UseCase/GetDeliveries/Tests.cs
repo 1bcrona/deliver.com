@@ -15,7 +15,7 @@ using MockQueryable.Moq;
 using Moq;
 using NUnit.Framework;
 
-namespace DeliverCom.Test.UseCase.GetDeliveries
+namespace DeliverCom.Test.Unit.UseCase.GetDeliveries
 {
     public class Tests
     {

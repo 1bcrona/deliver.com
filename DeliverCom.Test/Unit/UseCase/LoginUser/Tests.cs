@@ -12,7 +12,7 @@ using MockQueryable.Moq;
 using Moq;
 using NUnit.Framework;
 
-namespace DeliverCom.Test.UseCase.LoginUser
+namespace DeliverCom.Test.Unit.UseCase.LoginUser
 {
     public class Tests
     {

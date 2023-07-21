@@ -19,10 +19,7 @@
 
     <ItemGroup>
         <ProjectReference Include="..\DeliverCom.Application\DeliverCom.Application.csproj" />
-        <ProjectReference Include="..\DeliverCom.Container\DeliverCom.Container.csproj" />
         <ProjectReference Include="..\DeliverCom.Core\DeliverCom.Core.csproj" />
-        <ProjectReference Include="..\DeliverCom.Data\DeliverCom.Data.csproj" />
-        <ProjectReference Include="..\DeliverCom.Repository\DeliverCom.Repository.csproj" />
     </ItemGroup>
 
     <ItemGroup>

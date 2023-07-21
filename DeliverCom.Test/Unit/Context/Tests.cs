@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 using NUnit.Framework;
 
-namespace DeliverCom.Test.Context
+namespace DeliverCom.Test.Unit.Context
 {
     public class Tests
     {

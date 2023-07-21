@@ -9,7 +9,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="Autofac" Version="7.0.1" />
         <PackageReference Include="DotNetCore.CAP.SqlServer" Version="7.1.4" />
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
         <PackageReference Include="MockQueryable.Moq" Version="7.0.0" />
         <PackageReference Include="Moq" Version="4.18.4" />
@@ -20,7 +23,10 @@
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\DeliverCom.Data\DeliverCom.Data.csproj" />
         <ProjectReference Include="..\DeliverCom.Repository\DeliverCom.Repository.csproj" />
+        <ProjectReference Include="..\DeliverCom.Resolver\DeliverCom.Resolver.csproj" />
+        <ProjectReference Include="..\DeliverCom.Routing\DeliverCom.Routing.csproj" />
         <ProjectReference Include="..\DeliverCom.UseCase\DeliverCom.UseCase.csproj" />
     </ItemGroup>
 
