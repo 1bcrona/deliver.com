@@ -1,6 +1,6 @@
 # DeliverCom
 
-DeliverCom is designed to be an example of delivery system. Developed with standards of hexagonal architecture.
+DeliverCom is designed to be an example of delivery system. Developed according to standards of hexagonal architecture.
 
 ## Prerequities
    - ##### Docker(https://www.docker.com/get-started)
