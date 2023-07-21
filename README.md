@@ -18,7 +18,7 @@ DeliverCom is designed to be an example of delivery system. Developed according 
 
 - ### Dependency Graph
 
-  ![alt text](https://github.com/1bcrona/deliver.com/blob/master/assets/DeliverCom_Light.png?raw=true)
+  ![Dependency Graph](https://github.com/1bcrona/deliver.com/blob/master/assets/DeliverCom.png?raw=true)
   
 - ### DeliverCom.API
   
