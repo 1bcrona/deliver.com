@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <NoWarn>1701;1702;CS1591</NoWarn>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <NoWarn>1701;1702;CS1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\DeliverCom.Container\DeliverCom.Container.csproj"/>
+        <ProjectReference Include="..\DeliverCom.Domain\DeliverCom.Domain.csproj"/>
+        <ProjectReference Include="..\DeliverCom.Resolver\DeliverCom.Resolver.csproj"/>
+        <ProjectReference Include="..\DeliverCom.Routing\DeliverCom.Routing.csproj"/>
+        <ProjectReference Include="..\DeliverCom.UseCase\DeliverCom.UseCase.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="12.1.1"/>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0"/>
+        <PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="6.32.0"/>
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+{
+  "Serilog": {
+    "WriteTo": [
+      {
+        "Name": "Console",
+        "Args": {
+          "theme": "Serilog.Sinks.SystemConsole.Themes.AnsiConsoleTheme::Code, Serilog.Sinks.Console",
+          "outputTemplate": "{Message:lj}{NewLine}"
+        }
+      }
+    ]
+  }
+}
+
+

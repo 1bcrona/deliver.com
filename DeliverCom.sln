@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.API", "DeliverCom.API\DeliverCom.API.csproj", "{DA440759-B023-4251-B793-E1B04180295B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.Domain", "DeliverCom.Domain\DeliverCom.Domain.csproj", "{4DDEB4AA-B03D-4D31-A118-BC2E9E096404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.UseCase", "DeliverCom.UseCase\DeliverCom.UseCase.csproj", "{7E728019-7C1A-4AC6-9B47-6DA10FC73DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.Application", "DeliverCom.Application\DeliverCom.Application.csproj", "{675D64BD-0457-4FFB-BB5F-294136B40DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.Core", "DeliverCom.Core\DeliverCom.Core.csproj", "{D6099E72-E912-4A46-B9A3-C5681D9CBA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.Resolver", "DeliverCom.Resolver\DeliverCom.Resolver.csproj", "{213AC3FD-7A51-4A46-80D3-E4F91A9F7773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.Routing", "DeliverCom.Routing\DeliverCom.Routing.csproj", "{6E3AE80E-DD48-48E7-9282-CF1930D8517E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.Container", "DeliverCom.Container\DeliverCom.Container.csproj", "{E67D4A05-B21B-4E31-973D-93816C9B74BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.Repository", "DeliverCom.Repository\DeliverCom.Repository.csproj", "{AE457C05-3E1B-4E57-B5DB-9963C53BB321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.Test", "DeliverCom.Test\DeliverCom.Test.csproj", "{587EAE7D-87FE-43B6-BF89-752332955FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliverCom.Data", "DeliverCom.Data\DeliverCom.Data.csproj", "{7BC0A915-231F-4DF6-B337-1DB65F1EDD2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B66DDB4C-29FC-4D2A-A526-44A889144D07}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA440759-B023-4251-B793-E1B04180295B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA440759-B023-4251-B793-E1B04180295B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA440759-B023-4251-B793-E1B04180295B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA440759-B023-4251-B793-E1B04180295B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DDEB4AA-B03D-4D31-A118-BC2E9E096404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DDEB4AA-B03D-4D31-A118-BC2E9E096404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DDEB4AA-B03D-4D31-A118-BC2E9E096404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DDEB4AA-B03D-4D31-A118-BC2E9E096404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E728019-7C1A-4AC6-9B47-6DA10FC73DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E728019-7C1A-4AC6-9B47-6DA10FC73DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E728019-7C1A-4AC6-9B47-6DA10FC73DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E728019-7C1A-4AC6-9B47-6DA10FC73DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{675D64BD-0457-4FFB-BB5F-294136B40DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{675D64BD-0457-4FFB-BB5F-294136B40DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{675D64BD-0457-4FFB-BB5F-294136B40DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{675D64BD-0457-4FFB-BB5F-294136B40DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6099E72-E912-4A46-B9A3-C5681D9CBA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6099E72-E912-4A46-B9A3-C5681D9CBA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6099E72-E912-4A46-B9A3-C5681D9CBA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6099E72-E912-4A46-B9A3-C5681D9CBA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{213AC3FD-7A51-4A46-80D3-E4F91A9F7773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{213AC3FD-7A51-4A46-80D3-E4F91A9F7773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{213AC3FD-7A51-4A46-80D3-E4F91A9F7773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{213AC3FD-7A51-4A46-80D3-E4F91A9F7773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3AE80E-DD48-48E7-9282-CF1930D8517E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3AE80E-DD48-48E7-9282-CF1930D8517E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3AE80E-DD48-48E7-9282-CF1930D8517E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3AE80E-DD48-48E7-9282-CF1930D8517E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67D4A05-B21B-4E31-973D-93816C9B74BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67D4A05-B21B-4E31-973D-93816C9B74BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67D4A05-B21B-4E31-973D-93816C9B74BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67D4A05-B21B-4E31-973D-93816C9B74BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE457C05-3E1B-4E57-B5DB-9963C53BB321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE457C05-3E1B-4E57-B5DB-9963C53BB321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE457C05-3E1B-4E57-B5DB-9963C53BB321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE457C05-3E1B-4E57-B5DB-9963C53BB321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{587EAE7D-87FE-43B6-BF89-752332955FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{587EAE7D-87FE-43B6-BF89-752332955FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{587EAE7D-87FE-43B6-BF89-752332955FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{587EAE7D-87FE-43B6-BF89-752332955FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC0A915-231F-4DF6-B337-1DB65F1EDD2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC0A915-231F-4DF6-B337-1DB65F1EDD2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC0A915-231F-4DF6-B337-1DB65F1EDD2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC0A915-231F-4DF6-B337-1DB65F1EDD2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

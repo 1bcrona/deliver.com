@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>disable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DocumentationFile>bin\Debug\DeliverCom.API.xml</DocumentationFile>
+        <NoWarn>1701;1702;CS1591</NoWarn>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release\DeliverCom.API.xml</DocumentationFile>
+        <NoWarn>1701;1702;CS1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\DeliverCom.Application\DeliverCom.Application.csproj" />
+        <ProjectReference Include="..\DeliverCom.Container\DeliverCom.Container.csproj" />
+        <ProjectReference Include="..\DeliverCom.Core\DeliverCom.Core.csproj" />
+        <ProjectReference Include="..\DeliverCom.Data\DeliverCom.Data.csproj" />
+        <ProjectReference Include="..\DeliverCom.Repository\DeliverCom.Repository.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DotNetCore.CAP" Version="7.1.4" />
+        <PackageReference Include="DotNetCore.CAP.Dashboard" Version="7.1.4" />
+        <PackageReference Include="DotNetCore.CAP.InMemoryStorage" Version="7.1.4" />
+        <PackageReference Include="DotNetCore.CAP.PostgreSql" Version="7.1.4" />
+        <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="7.1.4" />
+        <PackageReference Include="Mapster" Version="7.3.0" />
+        <PackageReference Include="MediatR" Version="12.1.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.9" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="7.0.9" />
+        <PackageReference Include="Savorboard.CAP.InMemoryMessageQueue" Version="7.0.0" />
+        <PackageReference Include="Serilog" Version="3.0.1" />
+        <PackageReference Include="Serilog.Extensions.Logging" Version="7.0.0" />
+        <PackageReference Include="Serilog.Settings.Configuration" Version="7.0.0" />
+        <PackageReference Include="Serilog.Settings.Reloader" Version="2.10.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>
