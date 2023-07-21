@@ -9,8 +9,10 @@ DeliverCom is designed to be an example of delivery system. Developed according 
 
 ## Libraries that used
 
-   - [Cap](https://github.com/dotnetcore/CAP) - DotnetCore Cap
+   - [Cap](https://github.com/dotnetcore/CAP) - For implementing Outbox Patter
    - [MediatR](https://github.com/jbogard/MediatR) - For Processing Commands, Queries
+   - [EntityFramework](https://github.com/dotnet/efcore) - For implementing object-database mapping
+   - [Mapster](https://github.com/MapsterMapper/Mapster) - For mapping domain objects with DTO objects used in API.
 
 ## Solution Structure
 
