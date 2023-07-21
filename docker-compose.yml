@@ -3,7 +3,7 @@
     image: delivercom.api
     build:
       context: .
-      dockerfile: src/DeliverCom.API/Dockerfile
+      dockerfile: Dockerfile
     ports:
       - "5000:5000"
       - "5001:5001"
@@ -19,11 +19,4 @@
       POSTGRES_DB: postgres
     ports:
       - "5432:5432"
-  
-  
-  
-  delivercom.api-1:
-    image: delivercom.api-1
-    build:
-      context: .
-      dockerfile: DeliverCom.API/Dockerfile
+
