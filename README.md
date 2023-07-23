@@ -20,7 +20,7 @@ DeliverCom is designed to be an example of delivery system. Developed according 
     
 ## Sequence Diagram
 
-  ![Sequence Diagram](https://github.com/1bcrona/deliver.com/blob/master/assets/DeliverCom_Sequence_Diagram.png?raw=true)
+  ![Sequence Diagram](https://github.com/1bcrona/deliver.com/blob/master/assets/DeliverCom_SequenceDiagram.png?raw=true)
   
 
 ## Solution Structure
