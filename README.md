@@ -14,12 +14,17 @@ DeliverCom is designed to be an example of delivery system. Developed according 
    - [EntityFramework](https://github.com/dotnet/efcore) - For implementing object-database mapping
    - [Mapster](https://github.com/MapsterMapper/Mapster) - For mapping domain objects with DTO objects used in API.
 
-## Solution Structure
-
-- ### Dependency Graph
+## Dependency Graph
 
   ![Dependency Graph](https://github.com/1bcrona/deliver.com/blob/master/assets/DeliverCom.png?raw=true)
+    
+## Sequence Diagram
+
+  ![Sequence Diagram](https://github.com/1bcrona/deliver.com/blob/master/assets/DeliverCom_Sequence_Diagram.png?raw=true)
   
+
+## Solution Structure
+
 - ### DeliverCom.API
   
   It is the application that contains the API.
